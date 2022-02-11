@@ -45,6 +45,7 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: inherit;
+  
 }
 /*reponsive mobile*/
 @media screen and (max-width: 678px) {
@@ -57,7 +58,7 @@ body{
         scroll-snap-stop: always;
         padding: 25px;/*tu box-shadow*/
         scroll-padding: 25px;
-        margin-left: -25px;
+        margin-left: -25px;/*truwf leef khi padding*/
     }
     .images-item{
         scroll-snap-align: center; /*start/center/end*/
